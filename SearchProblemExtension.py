@@ -207,8 +207,8 @@ class SearchProblemExtension(object):
 
 
 
-	def compute_fixed_point(self, T, v, error_tol=1e-5, 
-							max_iter=150, verbose=1):
+	def compute_fixed_point(self, T, v, error_tol=1e-6, 
+							max_iter=500, verbose=1):
 		"""
 		Compute the fixed point of the reservation rule operator.
 		"""
